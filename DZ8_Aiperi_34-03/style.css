@@ -1,0 +1,61 @@
+li{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+    border: 2px solid black;
+    width: 150px;
+    padding-left: 10px;
+}
+.column{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.columnName{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.columns{
+    width: 850px;
+    margin: 0 auto;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background: #93ce8f;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+.modalWindow{
+    margin: 250px auto;
+    width: 300px;
+    height: 100px;
+    background: silver;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.darkBg{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.86);
+}
+.textModalWindow{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.modalWindowButton{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background: #000000;
+    margin: 20px 0 ;
+}
+/*.darkColumn{*/
+/*    background: silver;*/
+/*}*/
